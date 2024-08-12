@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+.nav-tabs .nav-link {
+    color: #ffffff;
+    border: none;
+  }
+  
+  .nav-tabs .nav-link.active {
+    background-color: #6c757d;
+    border-radius: 0;
+    border-bottom: 2px solid #ffffff;
+  }
+  
+  .card-body h2, h3 {
+    color: #ffffff;
+  }
+  
+  .badge {
+    font-size: 0.9rem;
+  }
+  
+  .list-group-item {
+    border: none;
+  }
+  
