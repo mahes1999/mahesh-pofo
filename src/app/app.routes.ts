@@ -11,7 +11,7 @@ import { NgModule } from '@angular/core';
 
  export const routes: Routes = [
     {
-        path: 'about', component: AboutComponent
+        path: 'about', component: ProfileComponent
     },
     { path: 'resume', component: ResumeComponent },
     { path: 'profile', component: ProfileComponent },
