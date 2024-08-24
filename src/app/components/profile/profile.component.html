@@ -1,33 +1,20 @@
-<!-- <div class="card bg-dark text-white">
-    <img [src]="profile" class="card-img-top rounded-circle" alt="Profile Picture">
-    <div class="card-body">
-      <h5 class="card-title">Mahesh Kumar C</h5>
-      <p class="card-text">Security Engineer</p>
-      <p class="card-text">Adaptive Media India</p>
-      <hr>
-      <p><i class="bi bi-envelope"></i> contact@maheshchelladurai878@gmail.com</p>
-      <p><i class="bi bi-telephone"></i> +91 8610488804</p>
-      <p><i class="bi bi-calendar"></i> Feb 23, 1999</p>
-      <p><i class="bi bi-geo-alt"></i> Tirunelvli, Tamil Nadu, India</p>
-      <div class="social-links">
-        <a href="#"><i class="bi bi-twitter"></i></a>
-        <a href="#"><i class="bi bi-linkedin"></i></a>
-        <a href="#"><i class="bi bi-instagram"></i></a>
-      </div>
-    </div>
-  </div>
-   -->
 <body style="background-color: black;">
-  
-   <div class="container mt-4">
+
+  <div class="container mt-4">
     <div class="row">
       <div class="col-lg-4 col-md-5">
         <div class="card bg-dark text-white p-3">
           <div class="text-center">
-            <img src="../../../assets/images/mass.png" class="rounded-circle mb-5" alt="Profile Picture" width="200" height="250">
-            <h4>Mahesh Kumar C</h4>
-            <p class="text-muted">Security Engineer</p>
-            <p>Adaptive Media India</p>
+            <figure class="avatar-box">
+              <img src="../../../assets/images/mass.png" style="border-radius: 20px;" alt="Mahesh Kumar C" width="160">
+            </figure>
+            
+          </div>
+          <div class="info-content text-center">
+            <h1 class="name" title="Maheshkumar">Mahesh Kumar C</h1>
+            <p class="title">Security Engineer</p>
+            <pre></pre>
+            <p class="title">Adaptive Media India</p>
           </div>
           <hr>
           <ul class="list-unstyled">
@@ -52,6 +39,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" routerLink="/resume">Resume</a>
+              <app-resume></app-resume>
             </li>
             <li class="nav-item">
               <a class="nav-link" routerLink="/portfolio">Portfolio</a>
@@ -65,7 +53,8 @@
           </ul>
           <div class="card-body">
             <h2>About Me</h2>
-            <p>I'm a Cyber Security Researcher based in Chennai, India. I specialize in identifying vulnerabilities in various platforms...</p>
+            <p>I'm a Cyber Security Researcher based in Chennai, India. I specialize in identifying vulnerabilities in
+              various platforms...</p>
             <div class="badge bg-secondary m-1">Ethical Hacker</div>
             <div class="badge bg-secondary m-1">Cyber Security Researcher</div>
             <div class="badge bg-secondary m-1">Penetration Tester</div>
@@ -91,8 +80,10 @@
             </div>
             <h3 class="mt-4">Talks</h3>
             <ul class="list-group">
-              <li class="list-group-item bg-dark text-white">Valliammai Polytechnic College - Career Guidance (2023)</li>
-              <li class="list-group-item bg-dark text-white">Jerusalem College of Engineering - Ethical Hacking Workshop (2023)</li>
+              <li class="list-group-item bg-dark text-white">Valliammai Polytechnic College - Career Guidance (2023)
+              </li>
+              <li class="list-group-item bg-dark text-white">Jerusalem College of Engineering - Ethical Hacking Workshop
+                (2023)</li>
               <li class="list-group-item bg-dark text-white">SRM IST TechUtsav 8.0 - Cybersecurity (2023)</li>
             </ul>
           </div>

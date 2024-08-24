@@ -1,5 +1,5 @@
 {
-  "name": "mahesh-pofo",
+  "name": "cmahesh",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:mahesh-pofo": "node dist/mahesh-pofo/server/server.mjs"
+    "serve:ssr:mahesh": "node dist/mahesh/server/server.mjs"
   },
   "private": true,
   "dependencies": {

@@ -1,10 +1,12 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { Route } from '@angular/router';
+import { Route, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { ResumeComponent } from "../resume/resume.component";
 
 @Component({
   selector: 'app-profile',
   standalone: true,
-  imports: [],
+  imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive, ResumeComponent],
   templateUrl: './profile.component.html',
   styleUrl: './profile.component.scss'
 })

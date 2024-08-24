@@ -1,0 +1,24 @@
+.avatar-box {
+    border-radius: 30px;
+}
+.info-content .name{
+ white-space: nowrap;
+ text-align: center;
+ margin-bottom: 15px;
+ color: white;
+ font-size:22px;
+ font-weight: var(--fw-1000);
+ letter-spacing: -0.25px;
+}
+
+.info-content .title {
+    margin: auto;
+    padding: 5px 18px;
+    color: white;
+    background: #353333;
+    font-size: 15px;
+    width: max-content;
+    border-radius: 8px;
+    display: flex;
+
+}
